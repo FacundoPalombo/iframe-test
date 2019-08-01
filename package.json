@@ -1,0 +1,22 @@
+{
+  "name": "iframe-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "iframe": "nodemon serverIframe.js -e html,js,css,json",
+    "page" : "nodemon serverPage.js -e html,js,css,json",
+    "dev" : "nodemon index.js -e html,js,css,json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
